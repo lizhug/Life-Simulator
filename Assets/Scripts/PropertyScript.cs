@@ -28,7 +28,7 @@ public class PropertyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+      
         ButtonInfo tmp1 = new ButtonInfo();
         tmp1.text = "欧洲中世纪";
         tmp1.id = 1;
@@ -52,8 +52,6 @@ public class PropertyScript : MonoBehaviour
             GameObject yearButton = Instantiate(YearButtonPrefab);
     
             yearButton.GetComponentInChildren<Text>().text = infostring[i].text;
-
-            
 
             Debug.Log(i + "生成按钮:" + infostring[i].text);
 
