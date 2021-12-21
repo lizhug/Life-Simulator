@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainUIScript : MonoBehaviour
+public class MainUI : MonoBehaviour
 {
     public GameObject startPanel;
     public GameObject selectPropertyPanel; 
